@@ -18,77 +18,55 @@ class RealmService{
     var config: Realm.Configuration{
         dbProduct.configuration
     }
-    //Работаем с продуктами
-    //Добавляем их в продукты
-    func addProduct(product: Product) {
+    func addProduct(product: ProductModel) {
         do{
             try dbProduct.write{
                 dbProduct.add(product)
             }
         } catch {
-            print("Ингридиент не записался")
+            print("Ингридиент не добавлен")
         }
     }
-    //Получаем их в список через массив
-    func getProduct() -> [Product]{
-        //Получили Резалт<продукты>
-        let products = dbProduct.objects(Product.self)
-        //Объявили массив типа Продуксты
-        var product = [Product]()
-        //Замыканием каждую позицию из products добавили в массив product
+    func getProduct() -> [ProductModel]{
+        let products = dbProduct.objects(ProductModel.self)
+        var product = [ProductModel]()
         for prod in products{
             product.append(prod)
         }
-        //Вернули продукт, который потом получим в списке продуктов во вью
         return product
     }
     
-    //Удаление из базы, на данный момент вылетает
-    func deleteProduct(_ product: Product){
-        //Через отлов ошибок do-catch производим запись
+    func deleteProduct(_ product: ProductModel){
         do{
-            //Вот здесь
             try dbProduct.write{
-                //Производим удаление продукта
                 dbProduct.delete(product)
-            //    getProduct()
             }
-            //Если не срабатывает, то ловим принт ошибки
         } catch {
-            print("Ингридиент не удалился")
+            print("Ингридиент не удален")
         }
     }
     
-    //Изменение продуктов
-    func changeProduct(_ product: Product, name: String, dens: Double){
+    func changeProduct(_ product: ProductModel, name: String, dens: Double){
         do{
             try dbProduct.write{
                 product.title = name
                 product.density = dens
-            //    getProduct()
             }
         } catch {
-            print("Очередной косяк")
+            print("Ингридиент не изменен")
         }
     }
     
     
-    
-    
-    //Работаем с единицами измерений
-    //Добавляем новые единицы измерений
     func addMeasurment(measure: MeasureModel){
         do{
             try dbMeasure.write{
                 dbMeasure.add(measure)
-           //     getProduct()
             }
         } catch {
-            print("Единица измерений не добавилась")
+            print("Единица измерений не добавлена")
         }
     }
-    //Получаем единицы измерений из БД
-    //Выше есть полное описание как это делается
     func getMeasures() -> [MeasureModel]{
         let measures = dbMeasure.objects(MeasureModel.self)
         var measur = [MeasureModel]()
@@ -97,30 +75,25 @@ class RealmService{
         }
         return measur
     }
-    //Удаление единицы измерений из БД
     func deleteMeasures(_ measure: MeasureModel){
         do{
             try dbMeasure.write{
                 dbMeasure.delete(measure)
-            //    getMeasures()
             }
         } catch {
-            print("Единица измерений не удалилась")
+            print("Единица измерений не удалена")
         }
     }
-    //Изменение единицы измерений в БД
     func changeMeasure(_ measure: MeasureModel, titl: String, wg: Double, bulk: String){
         do {
             print(measure)
             try dbMeasure.write{
                 measure.measureTitle = titl
                 measure.weight = wg
-                measure.bulkType = bulk
-             //   getMeasures()
-                
+                measure.bulkType = bulk                
             }
         } catch {
-            print("Drop")
+            print("Единица измерений не изменена")
         }
     }
 }

@@ -10,55 +10,55 @@
 		2E290DBA29F2E5B200F24E12 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E290DB929F2E5B200F24E12 /* TabBarView.swift */; };
 		2E290DBD29F2E89A00F24E12 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E290DBC29F2E89A00F24E12 /* SettingView.swift */; };
 		2E290DBF29F2E8A500F24E12 /* SettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E290DBE29F2E8A500F24E12 /* SettingViewModel.swift */; };
-		2E290DC129F301C900F24E12 /* ChangeMeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E290DC029F301C900F24E12 /* ChangeMeasureView.swift */; };
-		2E290DC329F301D800F24E12 /* ChangeMeasureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E290DC229F301D800F24E12 /* ChangeMeasureViewModel.swift */; };
 		2E37674829EFE4ED009516FE /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 2E37674729EFE4ED009516FE /* Realm */; };
 		2E37674A29EFE4ED009516FE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2E37674929EFE4ED009516FE /* RealmSwift */; };
 		2E37674C29EFE686009516FE /* RealmServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E37674B29EFE686009516FE /* RealmServices.swift */; };
 		2E48BB5429ED57C90008D0BD /* PositionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E48BB5329ED57C90008D0BD /* PositionModel.swift */; };
 		2E6014E129E9C92C004F11AC /* DefaultProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6014E029E9C92C004F11AC /* DefaultProduct.swift */; };
 		2E6014E329E9CA6E004F11AC /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6014E229E9CA6E004F11AC /* MainViewModel.swift */; };
-		2E6014E529E9CA7B004F11AC /* AddProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6014E429E9CA7B004F11AC /* AddProductViewModel.swift */; };
+		2E62B1902A601F8300530FFD /* PlusButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62B18F2A601F8300530FFD /* PlusButtonExt.swift */; };
+		2E62B1932A602E1000530FFD /* PickerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62B1922A602E1000530FFD /* PickerExt.swift */; };
+		2E62B1952A60341900530FFD /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62B1942A60341900530FFD /* Cell.swift */; };
+		2E62B1972A60384200530FFD /* AddItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62B1962A60384200530FFD /* AddItemViewModel.swift */; };
+		2E62B1992A60389600530FFD /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62B1982A60389600530FFD /* AddItemView.swift */; };
+		2E62B19B2A603EA400530FFD /* ChangeItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62B19A2A603EA400530FFD /* ChangeItemView.swift */; };
+		2E62B19D2A6040BF00530FFD /* ChangeItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E62B19C2A6040BF00530FFD /* ChangeItemViewModel.swift */; };
 		2E9795B429E5B39D00F43C1B /* KitchenConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9795B329E5B39D00F43C1B /* KitchenConverterApp.swift */; };
 		2E9795B629E5B39D00F43C1B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9795B529E5B39D00F43C1B /* MainView.swift */; };
 		2E9795B829E5B39E00F43C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9795B729E5B39E00F43C1B /* Assets.xcassets */; };
 		2E9795BB29E5B39E00F43C1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E9795BA29E5B39E00F43C1B /* Preview Assets.xcassets */; };
-		2E9C58E529F3DD8C002DF696 /* ChangeProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C58E429F3DD8C002DF696 /* ChangeProductViewModel.swift */; };
-		2E9C58E729F3DEC6002DF696 /* ChangeProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C58E629F3DEC6002DF696 /* ChangeProductView.swift */; };
 		2E9C58E929F3E9C4002DF696 /* TabBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9C58E829F3E9C4002DF696 /* TabBarViewModel.swift */; };
-		2EA1AFE029E9840400313E53 /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1AFDF29E9840400313E53 /* AddProductView.swift */; };
 		2EA2C63529E8328C008AD591 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2C63429E8328C008AD591 /* ProductModel.swift */; };
-		2EC3B64B29EADD01001DF946 /* AddMeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3B64A29EADD01001DF946 /* AddMeasureView.swift */; };
-		2EC3B64D29EADD22001DF946 /* AddMeasureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3B64C29EADD22001DF946 /* AddMeasureViewModel.swift */; };
 		2EC3B65129EAE011001DF946 /* MeasureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3B65029EAE011001DF946 /* MeasureModel.swift */; };
 		2EC3B65329EAE04C001DF946 /* DefaultMeasure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC3B65229EAE04C001DF946 /* DefaultMeasure.swift */; };
+		2EF6CD9B2A607C1C00A62313 /* TextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF6CD9A2A607C1C00A62313 /* TextFieldExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E290DB929F2E5B200F24E12 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		2E290DBC29F2E89A00F24E12 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		2E290DBE29F2E8A500F24E12 /* SettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewModel.swift; sourceTree = "<group>"; };
-		2E290DC029F301C900F24E12 /* ChangeMeasureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMeasureView.swift; sourceTree = "<group>"; };
-		2E290DC229F301D800F24E12 /* ChangeMeasureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMeasureViewModel.swift; sourceTree = "<group>"; };
 		2E37674B29EFE686009516FE /* RealmServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmServices.swift; sourceTree = "<group>"; };
 		2E48BB5329ED57C90008D0BD /* PositionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionModel.swift; sourceTree = "<group>"; };
 		2E6014E029E9C92C004F11AC /* DefaultProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultProduct.swift; sourceTree = "<group>"; };
 		2E6014E229E9CA6E004F11AC /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
-		2E6014E429E9CA7B004F11AC /* AddProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewModel.swift; sourceTree = "<group>"; };
+		2E62B18F2A601F8300530FFD /* PlusButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButtonExt.swift; sourceTree = "<group>"; };
+		2E62B1922A602E1000530FFD /* PickerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExt.swift; sourceTree = "<group>"; };
+		2E62B1942A60341900530FFD /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		2E62B1962A60384200530FFD /* AddItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewModel.swift; sourceTree = "<group>"; };
+		2E62B1982A60389600530FFD /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
+		2E62B19A2A603EA400530FFD /* ChangeItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeItemView.swift; sourceTree = "<group>"; };
+		2E62B19C2A6040BF00530FFD /* ChangeItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeItemViewModel.swift; sourceTree = "<group>"; };
 		2E9795B029E5B39D00F43C1B /* KitchenConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchenConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9795B329E5B39D00F43C1B /* KitchenConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchenConverterApp.swift; sourceTree = "<group>"; };
 		2E9795B529E5B39D00F43C1B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2E9795B729E5B39E00F43C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E9795BA29E5B39E00F43C1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2E9C58E429F3DD8C002DF696 /* ChangeProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeProductViewModel.swift; sourceTree = "<group>"; };
-		2E9C58E629F3DEC6002DF696 /* ChangeProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeProductView.swift; sourceTree = "<group>"; };
 		2E9C58E829F3E9C4002DF696 /* TabBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewModel.swift; sourceTree = "<group>"; };
-		2EA1AFDF29E9840400313E53 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
 		2EA2C63429E8328C008AD591 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
-		2EC3B64A29EADD01001DF946 /* AddMeasureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeasureView.swift; sourceTree = "<group>"; };
-		2EC3B64C29EADD22001DF946 /* AddMeasureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeasureViewModel.swift; sourceTree = "<group>"; };
 		2EC3B65029EAE011001DF946 /* MeasureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureModel.swift; sourceTree = "<group>"; };
 		2EC3B65229EAE04C001DF946 /* DefaultMeasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMeasure.swift; sourceTree = "<group>"; };
+		2EF6CD9A2A607C1C00A62313 /* TextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +96,9 @@
 			children = (
 				2E9C58E829F3E9C4002DF696 /* TabBarViewModel.swift */,
 				2E6014E229E9CA6E004F11AC /* MainViewModel.swift */,
-				2E6014E429E9CA7B004F11AC /* AddProductViewModel.swift */,
-				2E9C58E429F3DD8C002DF696 /* ChangeProductViewModel.swift */,
-				2EC3B64C29EADD22001DF946 /* AddMeasureViewModel.swift */,
-				2E290DC229F301D800F24E12 /* ChangeMeasureViewModel.swift */,
 				2E290DBE29F2E8A500F24E12 /* SettingViewModel.swift */,
+				2E62B1962A60384200530FFD /* AddItemViewModel.swift */,
+				2E62B19C2A6040BF00530FFD /* ChangeItemViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -114,6 +112,17 @@
 				2E37674E29F0297E009516FE /* DataSource */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2E62B1912A602DB600530FFD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2E62B18F2A601F8300530FFD /* PlusButtonExt.swift */,
+				2E62B1942A60341900530FFD /* Cell.swift */,
+				2E62B1922A602E1000530FFD /* PickerExt.swift */,
+				2EF6CD9A2A607C1C00A62313 /* TextFieldExt.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		2E9795A729E5B39D00F43C1B = {
@@ -159,11 +168,10 @@
 			children = (
 				2E290DB929F2E5B200F24E12 /* TabBarView.swift */,
 				2E9795B529E5B39D00F43C1B /* MainView.swift */,
-				2EA1AFDF29E9840400313E53 /* AddProductView.swift */,
-				2E9C58E629F3DEC6002DF696 /* ChangeProductView.swift */,
-				2EC3B64A29EADD01001DF946 /* AddMeasureView.swift */,
-				2E290DC029F301C900F24E12 /* ChangeMeasureView.swift */,
 				2E290DBC29F2E89A00F24E12 /* SettingView.swift */,
+				2E62B19A2A603EA400530FFD /* ChangeItemView.swift */,
+				2E62B1982A60389600530FFD /* AddItemView.swift */,
+				2E62B1912A602DB600530FFD /* Components */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -246,25 +254,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E48BB5429ED57C90008D0BD /* PositionModel.swift in Sources */,
+				2E62B1932A602E1000530FFD /* PickerExt.swift in Sources */,
 				2EC3B65129EAE011001DF946 /* MeasureModel.swift in Sources */,
 				2E290DBA29F2E5B200F24E12 /* TabBarView.swift in Sources */,
-				2E290DC129F301C900F24E12 /* ChangeMeasureView.swift in Sources */,
-				2EA1AFE029E9840400313E53 /* AddProductView.swift in Sources */,
+				2E62B1952A60341900530FFD /* Cell.swift in Sources */,
 				2EC3B65329EAE04C001DF946 /* DefaultMeasure.swift in Sources */,
 				2E37674C29EFE686009516FE /* RealmServices.swift in Sources */,
-				2E290DC329F301D800F24E12 /* ChangeMeasureViewModel.swift in Sources */,
-				2E9C58E729F3DEC6002DF696 /* ChangeProductView.swift in Sources */,
 				2E290DBD29F2E89A00F24E12 /* SettingView.swift in Sources */,
+				2EF6CD9B2A607C1C00A62313 /* TextFieldExt.swift in Sources */,
 				2E6014E129E9C92C004F11AC /* DefaultProduct.swift in Sources */,
-				2EC3B64D29EADD22001DF946 /* AddMeasureViewModel.swift in Sources */,
-				2EC3B64B29EADD01001DF946 /* AddMeasureView.swift in Sources */,
+				2E62B1902A601F8300530FFD /* PlusButtonExt.swift in Sources */,
 				2E9795B629E5B39D00F43C1B /* MainView.swift in Sources */,
+				2E62B1992A60389600530FFD /* AddItemView.swift in Sources */,
 				2E290DBF29F2E8A500F24E12 /* SettingViewModel.swift in Sources */,
 				2EA2C63529E8328C008AD591 /* ProductModel.swift in Sources */,
-				2E6014E529E9CA7B004F11AC /* AddProductViewModel.swift in Sources */,
 				2E9795B429E5B39D00F43C1B /* KitchenConverterApp.swift in Sources */,
-				2E9C58E529F3DD8C002DF696 /* ChangeProductViewModel.swift in Sources */,
+				2E62B19B2A603EA400530FFD /* ChangeItemView.swift in Sources */,
 				2E9C58E929F3E9C4002DF696 /* TabBarViewModel.swift in Sources */,
+				2E62B19D2A6040BF00530FFD /* ChangeItemViewModel.swift in Sources */,
+				2E62B1972A60384200530FFD /* AddItemViewModel.swift in Sources */,
 				2E6014E329E9CA6E004F11AC /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

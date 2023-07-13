@@ -9,9 +9,9 @@ import Foundation
 
 class SettingViewModel: ObservableObject {
     func updateMeasureTable() {
-        DefaultMeasure.deflMeasur.getMeasureListDB()
+        DefaultMeasure.shared.getMeasureListDB()
     }
     func updateProductTable() {
-        DefaultProduct.deflProduct.getProductsListDB()
+        DefaultProduct.shared.getProductsListDB()
     }
 }

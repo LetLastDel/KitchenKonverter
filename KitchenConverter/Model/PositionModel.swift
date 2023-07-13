@@ -13,6 +13,4 @@ struct PositionModel: Hashable{
     var product: String
     var quantity: Double
     var measure: String
-    
-    
 }
