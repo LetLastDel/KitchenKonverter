@@ -59,6 +59,7 @@
 		2EC3B65029EAE011001DF946 /* MeasureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureModel.swift; sourceTree = "<group>"; };
 		2EC3B65229EAE04C001DF946 /* DefaultMeasure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultMeasure.swift; sourceTree = "<group>"; };
 		2EF6CD9A2A607C1C00A62313 /* TextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExt.swift; sourceTree = "<group>"; };
+		2EF6CD9C2A609FDA00A62313 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +129,7 @@
 		2E9795A729E5B39D00F43C1B = {
 			isa = PBXGroup;
 			children = (
+				2EF6CD9C2A609FDA00A62313 /* Readme.md */,
 				2E9795B229E5B39D00F43C1B /* KitchenConverter */,
 				2E9795B129E5B39D00F43C1B /* Products */,
 			);
